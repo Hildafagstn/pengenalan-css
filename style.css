@@ -38,6 +38,8 @@ body {
   padding: 10px 15px;
   border-radius: 5px;
   cursor: pointer;
+  display: block;
+  margin-left: auto;
 }
 .login-box button:hover {
   background: black;
