@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard - Robux Store</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <nav class="navbar">
+    <div class="logo">Robux Store</div>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#collection">Collection</a></li>
+      <li><a href="#" onclick="logout()">Logout</a></li>
+    </ul>
+  </nav>
+
+  <section id="home" class="home-section">
+    <div class="banner">
+      <img src="banner.jpg" alt="banner">
+      <div class="text-overlay">
+        <h3>Selamat Datang di Fersa`ss Store</h3>
+        <p>Beli Robux dengan harga terjangkau dan aman.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="collection" class="collection-section">
+    <h2>Daftar Harga Robux</h2>
+    <div class="cards">
+      <div class="card">
+        <img src="robux2.jpg" alt="Robux 1">
+        <p>80 Robux — Rp 15.000</p>
+      </div>
+      <div class="card">
+        <img src="robux2.jpg" alt="Robux 2">
+        <p>400 Robux — Rp 75.000</p>
+      </div>
+      <div class="card">
+        <img src="robux3.jpg" alt="Robux 3">
+        <p>800 Robux — Rp 150.000</p>
+      </div>
+      <div class="card">
+        <img src="robux4.jpg" alt="Robux 4">
+        <p>1700 Robux — Rp 300.000</p>
+      </div>
+    </div>
+  </section>
+
+  <script>
+    function logout() {
+      window.location.href = "index.html";
+    }
+  </script>
+
+</body>
+</html>
